@@ -3,6 +3,7 @@ import sqlite3
 
 conn = sqlite3.connect('record_db.sqlite')
 
+
 def main():
     creating_table()
     insert_data()
@@ -10,6 +11,7 @@ def main():
     search_by_id_from_records()
     update_by_name_num_of_catches()
     delete_by_record_holder_name()
+
 
 # creating table if not exists
 def creating_table():
